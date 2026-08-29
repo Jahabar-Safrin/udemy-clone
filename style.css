@@ -101,14 +101,10 @@ body {
 
 .sale-image {
     position: relative;
-    width: 100%;
-    display: inline-block;
 }
 
 .sale img {
     width: 100%;
-    display: block;
-    height: auto;
 }
 
 .sale-image__offer {
