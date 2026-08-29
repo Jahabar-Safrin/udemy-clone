@@ -103,7 +103,7 @@ body {
     position: relative;
 }
 
-.sale img {
+.sale-image img {
     width: 100%;
 }
 
@@ -113,8 +113,8 @@ body {
     background-color: white;
     padding: 2%;
     position: absolute;
-    bottom: 10%;
-    left: 3%;
+    top: 10%;
+    left: 10%;
     animation-name: zoom;
     animation-duration: 2s;
     opacity: 0;
@@ -232,19 +232,5 @@ body {
     .navbar__s2 input{
         display: none;
     }
-
-    .sale-image__offer {
-    width: 45%;
-    border: solid black 2px;
-    background-color: white;
-    padding: 2%;
-    position: absolute;
-    top: 15%;
-    left: 3%;
-    animation-name: zoom;
-    animation-duration: 2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-}
 }
 
