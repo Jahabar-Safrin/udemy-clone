@@ -101,10 +101,14 @@ body {
 
 .sale-image {
     position: relative;
+    width: 100%;
+    display: inline-block;
 }
 
 .sale img {
-    width: 100%
+    width: 100%;
+    display: block;
+    height: auto;
 }
 
 .sale-image__offer {
@@ -119,6 +123,7 @@ body {
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
+    z-index: 10;
 }
 
 @keyframes zoom {
